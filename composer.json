@@ -1,0 +1,17 @@
+{
+    "name": "galio/salon",
+    "description": "Proyecto php8, SASS, SQL, GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Model\\" : "./models", 
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Classes\\" : "./classes"
+        }
+    },
+    "require": {
+        "phpmailer/phpmailer": "^6.7",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
